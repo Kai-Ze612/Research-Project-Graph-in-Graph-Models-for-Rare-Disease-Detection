@@ -1,6 +1,5 @@
 # True Gene Classification Based on the GiG Framework
-
-This repository contains the implementation and results of our research project on Graph-in-Graph Models for Rare Disease Detection, conducted in collaboration with two teammates at the Technical University of Munich.
+This repository contains the implementation and results of our research project on Graph-in-Graph Models for Rare Disease Detection, conducted in collaboration with two teammates under the supervision of faculty CAMP at the Technical University of Munich.
 
 ## Team
 
