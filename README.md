@@ -35,7 +35,7 @@ The research results are documented in detail in our paper: Research-Project-Gra
 
 ## Installation and Usage
 ### Clone the repository
-git clone https://github.com/yourusername/Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.git
+`git clone https://github.com/yourusername/Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.git`
 
 ### Install required dependencies
 pip install -r requirements.txt
