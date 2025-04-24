@@ -21,6 +21,7 @@ The preprocessed dataset is too large to be stored in this GitHub repository. It
 ```
 Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/
 ├── main.ipynb      # Main implementation notebook
+├── processing.ipynb # data preprocessing for Shepherd Dataset
 ├── kg.py           # Knowledge graph utilities
 ├── Data/           # Data directory (placeholder - see OneDrive link for actual data)
 └── Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.pdf  # Full research paper
