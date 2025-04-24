@@ -14,3 +14,24 @@ The dataset comes from [Harvard Dataverse Shepherd Dataset](https://dataverse.ha
 
 The preprocessed dataset is too large to be stored in this GitHub repo. It is available via [my personal Onedrive](https://1drv.ms/f/s!ApjXPmewijhuvYspZCrEgfe5q0XmjA?e=sbb3TT)
 
+Download the preprocessed dataset in the following path:
+```
+Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/
+
+├── main.ipynb
+
+├── kg.py
+
+├── Data
+
+│   └──saved_graphs/
+
+│       ├── test
+
+│       ├── train
+
+│       └── val
+```
+
+## 
+
