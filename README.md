@@ -31,7 +31,6 @@ Our project proposes a novel Graph-in-Graph (GiG) framework for rare disease det
 
 ## Results:
 The research results are documented in detail in our paper: Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.pdf
-[Add 1-2 key findings or performance metrics here]
 
 ## Installation and Usage
 ### Clone the repository
