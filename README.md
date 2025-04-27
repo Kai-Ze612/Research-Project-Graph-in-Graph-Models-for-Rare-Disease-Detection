@@ -27,7 +27,7 @@ Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/
 ```
 
 ## Project Overview
-[Add 2-3 sentences describing what your project does, the problem it solves, and the approach used]
+Our project proposes a novel Graph-in-Graph (GiG) framework for rare disease detection. It addresses the challenge of limited data and complex symptom patterns by modeling individual patients and their phenotypic relationships using graph structures. We leverage both node-level feature learning and cross-patient connections to enhance diagnostic accuracy and uncover hidden disease patterns.
 
 ## Results:
 The research results are documented in detail in our paper: Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.pdf
