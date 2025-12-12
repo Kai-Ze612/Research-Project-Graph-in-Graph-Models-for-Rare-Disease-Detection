@@ -23,7 +23,7 @@ Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/
 ├── processing.ipynb # data preprocessing for Shepherd Dataset
 ├── kg.py           # Knowledge graph utilities
 ├── Data/           # Data directory (placeholder - see OneDrive link for actual data)
-└── Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.pdf  # Full research paper
+└── Presentation    # Document the project processes
 ```
 
 ## Project Overview
