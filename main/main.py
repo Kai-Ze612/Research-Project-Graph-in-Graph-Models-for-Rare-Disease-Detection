@@ -21,13 +21,13 @@ config = {
     "dropout": 0.3,
     
     # Training - UPDATED
-    "lr": 0.001,             # Increased from 0.0001 to 0.001 (Critical for Embeddings!)
+    "lr": 0.001,             # Critical for learning embeddings
     "optimizer_lr": 0.001,
     "lr_theta_temp": 0.001,  
     "alpha": 0.01,
-    "weight_decay": 1e-4,    # Reduced slightly to allow faster initial learning
+    "weight_decay": 1e-4,    
     
-    # New Warmup Parameter
+    # Warmup Parameter
     "warmup_epochs": 20,     # First 20 epochs = Baseline Mode (No F2)
     
     # Misc
@@ -35,8 +35,11 @@ config = {
     "scheduler": "ReduceLROnPlateau",
 }
 
-# 2. Setup Data
-file_path = './saved_data_pkl'
+# 2. Setup Data - FIXED PATH
+# We use the absolute path to guarantee the file is found
+file_path = '../saved_data_pkl'
+
+print(f"Loading data from: {file_path}")
 train_loader, val_loader, test_loader, num_classes = get_dataloaders(file_path)
 config["num_classes"] = num_classes
 print(f"Detected {num_classes} unique classes.")
@@ -47,7 +50,13 @@ model = GiGTrainer(config)
 # 4. Setup Logger & Callbacks
 wandb_logger = WandbLogger(project="gig-model")
 callbacks = [
-    ModelCheckpoint(monitor='val_loss', dirpath='checkpoints', filename='gig-{epoch:02d}-{val_loss:.2f}', save_top_k=3, mode='min'),
+    ModelCheckpoint(
+        monitor='val_loss', 
+        dirpath='../checkpoints',  # Save outside the 'main' folder
+        filename='gig-{epoch:02d}-{val_loss:.2f}', 
+        save_top_k=3, 
+        mode='min'
+    ),
     EarlyStopping(monitor='val_loss', min_delta=0.01, patience=30, mode='min', verbose=True),
     LearningRateMonitor(logging_interval='epoch')
 ]
@@ -60,7 +69,6 @@ trainer = Trainer(
     callbacks=callbacks,
     logger=wandb_logger,
     benchmark=True,
-    # Gradient accumulation helps if batch size is small, but 1024 is fine
     check_val_every_n_epoch=1 
 )
 
