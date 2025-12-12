@@ -1,0 +1,19 @@
+# --- Logs ---
+*.log
+logs/
+*.out
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Data (Optional - usually you don't commit large datasets) ---
+Data/
+Output/
+*.pkl
+*.csv
