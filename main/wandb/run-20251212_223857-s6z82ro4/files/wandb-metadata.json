@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-12-12T21:38:57.950658Z",
+  "program":  "/home/kaize/Downloads/Master_Study_Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/main/main.py",
+  "codePath":  "main/main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/Kai-Ze612/Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.git",
+    "commit":  "e8fae830e3e172735c2d319dd95715517a1cc841"
+  },
+  "email":  "ge62meq@mytum.de",
+  "root":  ".",
+  "host":  "flexcycle",
+  "executable":  "/home/kaize/Downloads/Master_Study_Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/.venv/bin/python3",
+  "cpu_count":  24,
+  "cpu_count_logical":  32,
+  "gpu":  "NVIDIA GeForce RTX 5090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "2013991550976",
+      "used":  "343601102848"
+    }
+  },
+  "memory":  {
+    "total":  "67245002752"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5090",
+      "memoryTotal":  "34190917632",
+      "cudaCores":  21760,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-bff8c123-f687-f687-1cf9-c96ab2e1a705"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "fzdazlnzm8hewt2vkqhbegq119zl88ds"
+}

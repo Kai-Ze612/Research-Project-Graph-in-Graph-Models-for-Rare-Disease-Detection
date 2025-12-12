@@ -1,0 +1,99 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            z422fb88uuolxs4f6t2yicsoz1tp2xly:
+                codePath: main/main.py
+                codePathLocal: main.py
+                cpu_count: 24
+                cpu_count_logical: 32
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "2013991550976"
+                        used: "342106882048"
+                email: ge62meq@mytum.de
+                executable: /home/kaize/Downloads/Master_Study_Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/.venv/bin/python3
+                git:
+                    commit: e8fae830e3e172735c2d319dd95715517a1cc841
+                    remote: https://github.com/Kai-Ze612/Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.git
+                gpu: NVIDIA GeForce RTX 5090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-bff8c123-f687-f687-1cf9-c96ab2e1a705
+                host: flexcycle
+                memory:
+                    total: "67245002752"
+                os: Linux-6.14.0-37-generic-x86_64-with-glibc2.39
+                program: /home/kaize/Downloads/Master_Study_Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection/main/main.py
+                python: CPython 3.12.3
+                root: .
+                startedAt: "2025-12-12T21:32:00.598223Z"
+                writerId: z422fb88uuolxs4f6t2yicsoz1tp2xly
+        m:
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "2": '*'
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 9
+                - 77
+                - 103
+            "2":
+                - 1
+                - 9
+                - 77
+                - 103
+            "3":
+                - 7
+                - 66
+            "4": 3.12.3
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+alpha:
+    value: 0.1
+conv_type:
+    value: GCN
+dropout:
+    value: 0.3
+embedding_dim:
+    value: 256
+gnn_hidden_dim:
+    value: 512
+gnn_layers:
+    value: 4
+hidden_dim:
+    value: 256
+input_dim:
+    value: 64
+latent_dim:
+    value: 256
+loss:
+    value: CrossEntropyLoss
+lr:
+    value: 0.001
+lr_theta_temp:
+    value: 0.001
+num_classes:
+    value: 2405
+optimizer_lr:
+    value: 0.001
+scheduler:
+    value: ReduceLROnPlateau
+warmup_epochs:
+    value: 20
+weight_decay:
+    value: 0.0001
