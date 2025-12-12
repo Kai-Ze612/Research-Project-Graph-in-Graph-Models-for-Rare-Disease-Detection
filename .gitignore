@@ -17,3 +17,7 @@ Data/
 Output/
 *.pkl
 *.csv
+
+lightning_logs/
+*/lightning_logs/
+*.ckpt
