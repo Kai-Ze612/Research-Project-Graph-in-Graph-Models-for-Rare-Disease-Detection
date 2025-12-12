@@ -33,8 +33,8 @@ Our project proposes a novel Graph-in-Graph (GiG) framework for rare disease det
 The research results are documented in detail in our paper: Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.pdf
 
 ## Installation and Usage
-### Clone the repository
-`git clone https://github.com/Kai-Ze612/Research-Project-Graph-in-Graph-Models-for-Rare-Disease-Detection.git`
 
 ### Install required dependencies
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
